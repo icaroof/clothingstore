@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -17,3 +17,7 @@ gem 'listen', '~> 3.1.5'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'twitter-bootstrap-rails'
+
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
+gem 'rails-i18n', '~> 4.0.0'
